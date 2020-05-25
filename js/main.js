@@ -13,10 +13,11 @@ $(function () {
         nextArrow: '<img class="slick-arrows slick-arrows__right" src="img/arrowdown.png">',
         responsive: [
             {
-                breakpoint: 1000,
+                breakpoint: 800,
                 settings: {
-                    touchMove: false,
-                    touchThreshold: false
+                    vertical: false,
+                    verticalSwiping: false,
+                    autoplay: false,
                 }
             },
         ]
